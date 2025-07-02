@@ -1,0 +1,46 @@
+@media only screen and (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      height: auto;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+    }
+  
+    .gallery img {
+      width: 95%;
+      height: auto;
+    }
+  
+    .columns {
+      grid-template-columns: 1fr;
+      padding-left: 15px;
+    }
+  
+    .about {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .about img {
+      width: 95%;
+      height: auto;
+      padding: 0;
+    }
+  
+    .name h2, .name p {
+      text-align: center;
+    }
+  
+    .footer-content {
+      font-size: 0.9em;
+    }
+
+    .navbar ul {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+      
+  }
+  
